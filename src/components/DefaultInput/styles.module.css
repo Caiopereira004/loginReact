@@ -1,0 +1,19 @@
+.defaultInput{
+    height: 3rem;
+    border: 0.0625rem solid var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0 0 0.75rem;
+    border-radius: 0.5rem;
+}
+.Input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--text-main);
+}
+.default-input:focus-within{
+    border-color: var(--primary-color);
+}

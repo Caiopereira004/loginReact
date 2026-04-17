@@ -1,0 +1,14 @@
+.defaultButton{
+    height: 3rem;
+    width: 100%;
+    background-color: var(--primary-color);
+    border: none;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+}
+.default-button:hover{
+    background-color: var(--secondary-color);
+}

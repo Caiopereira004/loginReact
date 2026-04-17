@@ -1,0 +1,10 @@
+.mainForm{
+    max-width: 25rem;
+    width: 100%;
+    padding: 2.5rem;
+    border-radius: 0.75rem;
+    background-color: var(--bg-card);
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}
